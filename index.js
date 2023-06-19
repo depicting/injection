@@ -12,7 +12,7 @@ const config = {
   ping_on_run: true, 
   ping_val: '@everyone',
   embed_name: 'Novis Injection', 
-  embed_icon: 'https://i.imgur.com/O0euLbc.png'.replace(/ /g, '%20'), 
+  embed_icon: 'https://i.imgur.com/KOvgvjt.jpg'.replace(/ /g, '%20'), 
   embed_color: 2895667, 
   injection_url: 'https://raw.githubusercontent.com/r3nko/injection/main/index.js', 
   /**
